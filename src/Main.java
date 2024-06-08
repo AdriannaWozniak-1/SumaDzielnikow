@@ -21,7 +21,6 @@ public class Main {
                 watki[i].join();
             }
         } catch (InterruptedException e) { //obsluga wyjatkow
-            //e.printStackTrace();
             throw new RuntimeException(e);
         }
 
